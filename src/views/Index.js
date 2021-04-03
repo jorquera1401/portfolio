@@ -10,6 +10,7 @@ import SectionDark from "views/index-sections/SectionDark.js";
 
 import firebaseConfig from "../firebase-config";
 import {FirebaseAppProvider  } from "reactfire";
+import Horario from "./desafio/Horario";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -31,6 +32,7 @@ function Index() {
         <SectionNucleoIcons />
         <SectionDark />
         <DemoFooter />
+        <Horario/>
       </div>
       </Suspense>
       </FirebaseAppProvider>
